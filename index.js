@@ -43,7 +43,7 @@ function managerQuestions() {
     ])
     .then ((data) => {
         let employee = new Manager (data.name, data.id, data.email, data.officeNumber);
-        team.push(employee);
+        myTeam.push(employee);
         
         if (data.newEmployee === 'none') {
             generateTeam ()
@@ -90,7 +90,7 @@ function engineerQuestions() {
     ])
     .then ((data) => {
         let employee = new Engineer (data.name, data.id, data.email, data.github);
-        team.push(employee);
+        myTeam.push(employee);
         
         if (data.newEmployee === 'none') {
             generateTeam ()
@@ -138,7 +138,7 @@ function internQuestions() {
     ])
     .then ((data) => {
         let employee = new Intern (data.name, data.id, data.email, data.school);
-        team.push(employee);
+        myTeam.push(employee);
         
         if (data.newEmployee === 'none') {
             generateTeam ()
