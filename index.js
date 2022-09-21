@@ -152,3 +152,70 @@ function internQuestions() {
     });
     
 }
+
+// function generate team
+function generateTeam() {
+    fs.writeFileSync(
+        "dist/team.html",
+        `
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Title</title>
+        </head>
+        <body>
+            <div class="container">
+                <div? class="row">
+        `
+    );
+    for (let i = 0; i < myTeam.length; i++) {
+        if (myTeam[i].officeNo) {
+          card = 
+          `<div class="col card">
+          Manager
+          <p>${myTeam[i].name}</p>
+          <p>id:${myTeam[i].id}</p>
+          <p>Email:${myTeam[i].email}</p>
+          <p>Office Number:${myTeam[i].officeNo}</p>
+           </div>`
+        }else if (myTeam[i].github){
+          card = 
+          `<div class="col card">
+          Engineer
+          <p>${myTeam[i].name}</p>
+          <p>id:${myTeam[i].id}</p>
+          <p>Email:${myTeam[i].email}</p>
+          <p>Github:${myTeam[i].github}</p>
+           </div>`
+        }else {
+          card = 
+          `<div class="col card">
+          Intern
+          <p>${myTeam[i].name}</p>
+          <p>id:${myTeam[i].id}</p>
+          <p>Email:${myTeam[i].email}</p>
+          <p>School:${myTeam[i].school}</p>
+          </div>`
+        };
+        fs.appendFileSync("dist/team.html", card)
+    }
+    fs.appendFileSync("dist/team.html", 
+    `
+    </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>`)
+}
+
+managerQuestions();
