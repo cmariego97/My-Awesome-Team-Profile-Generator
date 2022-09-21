@@ -132,7 +132,7 @@ function internQuestions() {
         {
             type:'list',
             message:'Would you like to add another employee to the team?',
-            choices: ['intern', 'intern', 'none'],
+            choices: ['engineer', 'intern', 'none'],
             name:'newEmployee',
         },
     ])
@@ -176,14 +176,14 @@ function generateTeam() {
         `
     );
     for (let i = 0; i < myTeam.length; i++) {
-        if (myTeam[i].officeNo) {
+        if (myTeam[i].officeNumber) {
           card = 
           `<div class="col card">
           Manager
           <p>${myTeam[i].name}</p>
           <p>id:${myTeam[i].id}</p>
           <p>Email:${myTeam[i].email}</p>
-          <p>Office Number:${myTeam[i].officeNo}</p>
+          <p>Office Number:${myTeam[i].officeNumber}</p>
            </div>`
         }else if (myTeam[i].github){
           card = 

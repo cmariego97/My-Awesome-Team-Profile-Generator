@@ -1,0 +1,39 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Syne&display=swap');
+
+/* root */
+:root {
+    --akaroa: #d3b7a1;
+    --voodoo: #473354;
+    --voodoo-shadow: 0px 3px 3px rgb(71,51,84,0.9);
+}
+/* base */
+* {
+    font-family: 'Arvo', serif, 'Lato', sans-serif;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: var(--akaroa);
+    color: var(--voodoo);
+}
+
+.jumbotron h1 {
+    font-family: 'Arvo', serif;
+}
+
+.jumbotron p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* team member card */
+#team-card {
+    box-shadow: var(--voodoo-shadow);
+    color: var(--voodoo);
+}
+
+#team-card #employee-info {
+    background-color: var(--akaroa);
+    font-size: 14px;
+    line-height: 1.5;
+}
