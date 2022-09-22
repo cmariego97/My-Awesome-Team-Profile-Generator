@@ -20,6 +20,7 @@ A completed example of this mock-up with the input's are available under "src/in
 - [License](#license)
 - [Badges](#badges)
 - [Contributing](#how-to-contribute)
+- [Credits](#credits)
 - [Tests](#tests)
 - [Author](#about-the-author)
 
@@ -71,6 +72,10 @@ This application also uses HTML and CSS styling:
 ## How to Contribute
 
 Ways to contribute include suggesting bug fixes, or styling advice.
+
+## Credits
+
+I received assistance for this project from a tutor and institution instructors ♡
 
 ## Tests
 
