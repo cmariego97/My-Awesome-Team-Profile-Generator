@@ -30,10 +30,16 @@
 #team-card {
     box-shadow: var(--voodoo-shadow);
     color: var(--voodoo);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 400px;
+    max-height: 400px;
+    border-radius: 10px;
 }
 
 #team-card #employee-info {
-    background-color: var(--akaroa);
+    
     font-size: 14px;
     line-height: 1.5;
+    justify-content: center;
 }
