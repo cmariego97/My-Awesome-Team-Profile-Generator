@@ -1,4 +1,4 @@
-# <The-Amazing-Team-Profile-Generator>
+# The-Amazing-Team-Profile-Generator
 
 ## Description
 
