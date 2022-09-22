@@ -4,6 +4,8 @@
 
 This is a Node.js command-line application that takes in information about employees on a software engineering team. It generates an HTML webpage that displays information and summaries for each employee info input.
 
+While building this project I became further comfortable in using Node.js and object-oriented programming. I also learned the importance of test-driven development and look forward to doing so for the productivity and development of future projects.
+
 ## Mock-Up
 
 This following image shows a mock-up of a generated HTML, its appearance and functionality:
@@ -46,11 +48,13 @@ Below is a mock-up of the command line.
 ![A mock-up of the command-line inputs when the command "node index" is run.](./src/assets/images/command-line%20input.png)
 
 Click this link for a demonstration of how the application works:
-[Click here for a video demonstration.](https://app.castify.com/watch/d5c517b2-2b08-4691-8062-14a1afef7906)
+[♡ click this for a demo ♡](https://app.castify.com/watch/d5c517b2-2b08-4691-8062-14a1afef7906)
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- - - 
+This application is covered under the MIT license.
+To view a description of this license type, refer to the repository or click [♡ here ♡](https://opensource.org/licenses/MIT).
 
 ## Badges
 
