@@ -18,6 +18,7 @@ A completed example of this mock-up with the input's are available under "src/in
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Badges](#badges)
 - [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Author](#about-the-author)
@@ -58,9 +59,14 @@ To view a description of this license type, refer to the repository or click [â™
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+This application was made with JavaScript:
 
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
+This application also uses HTML and CSS styling:
+
+[![ForTheBadge uses-html](https://ForTheBadge.com/images/badges/uses-html.svg)](https://ForTheBadge.com)
+[![ForTheBadge uses-css](https://ForTheBadge.com/images/badges/uses-css.svg)](https://ForTheBadge.com)
 
 ## How to Contribute
 
