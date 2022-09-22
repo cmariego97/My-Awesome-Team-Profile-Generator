@@ -41,9 +41,12 @@ Enter the following command in the command line to run the application:
 node index
 ~~~
 
-When prompted, input information in the command line in reference to the series of questions.
+When prompted, input information in the command line in reference to the series of questions. To add a new employee, choose a role when prompted to add another employee.
+Below is a mock-up of the command line. 
+![A mock-up of the command-line inputs when the command "node index" is run.](./src/assets/images/command-line%20input.png)
 
-![Click here for a demonstration.]()
+Click this link for a demonstration of how the application works:
+[Click here for a video demonstration.](https://app.castify.com/watch/d5c517b2-2b08-4691-8062-14a1afef7906)
 
 ## License
 
